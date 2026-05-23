@@ -19,7 +19,7 @@ export function Contact() {
         </div>
         
         <div class="section-reveal grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 max-w-2xl mx-auto" style="animation-delay: 0.2s;">
-          <a href="ahmad2006.work@gmail.com" class="group relative p-4 sm:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/30 transition-all duration-300 hover:-translate-y-1">
+          <a href="mailto:ahmad2006.work@gmail.com" class="group relative p-4 sm:p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/30 transition-all duration-300 hover:-translate-y-1">
             <div class="absolute inset-0 rounded-2xl bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="relative">
               <svg class="w-6 h-6 sm:w-8 sm:h-8 text-primary mx-auto mb-2 sm:mb-3 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
