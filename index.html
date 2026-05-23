@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Artist Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body class="bg-dark text-white font-sans antialiased overflow-x-hidden">
+  <canvas id="particles" class="fixed inset-0 pointer-events-none z-0 opacity-40"></canvas>
+  <div id="app" class="relative z-10"></div>
+  <div id="lightbox" class="fixed inset-0 z-50 bg-black/95 hidden items-center justify-center opacity-0 transition-opacity duration-300">
+    <button id="lightbox-close" class="absolute top-6 right-6 text-white/60 hover:text-white transition-colors z-10">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+    <img id="lightbox-img" src="" alt="" class="max-w-[90vw] max-h-[85vh] object-contain rounded-lg shadow-2xl">
+    <div id="lightbox-caption" class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/80 text-lg font-medium"></div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
